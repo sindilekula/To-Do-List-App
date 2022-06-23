@@ -90,3 +90,34 @@
     flex-direction: row;
     gap: 60px;
   }
+
+  #list #delete {
+    margin-top: 0;
+    /* margin-left: 150px; */
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #4dd2b3;
+    color: black;
+    border: 3px solid black;
+  }
+
+  .delete {
+    
+  }
+
+  @media screen and (max-width: 566px) {
+    #container{
+        width: 80vw;
+        flex-shrink: 50px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #list #delete {
+       
+    }
+}
