@@ -18,5 +18,5 @@ document.querySelector('#Add').onclick = function () {
 
 function deleteList() {
     lists.splice(list, 1);
-//     localStorage.setItem('records', JSON.stringify(lists));
-// };
+    localStorage.setItem('records', JSON.stringify(lists));
+};
